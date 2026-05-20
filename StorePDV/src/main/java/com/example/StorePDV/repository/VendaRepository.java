@@ -14,7 +14,7 @@ public interface VendaRepository extends JpaRepository<Venda, Long> {
     @Query("SELECT v FROM Venda v WHERE v.dataVenda BETWEEN :dataInicio AND :dataFim")
     List<Venda> findVendasPorPeriodo(@Param("dataInicio") LocalDateTime dataInicio, @Param("dataFim") LocalDateTime dataFim);
 
-    @Query("SELECT SUM(v.valorTotal) v FROM Venda v WHERE v.dataVenda BETWEEN :dataInicio AND :dataFim")
+    @Query("SELECT SUM(v.total) v FROM Venda v WHERE v.dataVenda BETWEEN :dataInicio AND :dataFim")
     BigDecimal sumVendasPorPeriodo(@Param("dataInicio")  LocalDateTime dataInicio, @Param("dataFim") LocalDateTime dataFim);
 
     @Query("SELECT COUNT(v) FROM Venda v WHERE v.dataVenda BETWEEN :dataInicio AND :dataFim")

@@ -20,6 +20,9 @@ public class Produto {
     private int estoqueMinimo;
     private boolean ativo = true;
 
+    public Produto(String nome, double preco) {
+    }
+
     public String getNome() {
         return nome;
     }
