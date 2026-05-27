@@ -20,70 +20,37 @@ public class Produto {
     private int estoqueMinimo;
     private boolean ativo = true;
 
+    public Produto() {}
+
     public Produto(String nome, double preco) {
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public double getPreco() {
-        return preco;
-    }
-
-    public void setPreco(double preco) {
         this.preco = preco;
     }
 
-    public int getQuantidade() {
-        return quantidade;
-    }
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
 
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
-    }
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
 
-    public double getPrecoCusto() {
-        return precoCusto;
-    }
+    public String getDescricao() { return descricao; }
+    public void setDescricao(String descricao) { this.descricao = descricao; }
 
-    public void setPrecoCusto(double precoCusto) {
-        this.precoCusto = precoCusto;
-    }
+    public double getPreco() { return preco; }
+    public void setPreco(double preco) { this.preco = preco; }
 
-    public int getEstoqueMinimo() {
-        return estoqueMinimo;
-    }
+    public int getQuantidade() { return quantidade; }
+    public void setQuantidade(int quantidade) { this.quantidade = quantidade; }
 
-    public void setEstoqueMinimo(int estoqueMinimo) {
-        this.estoqueMinimo = estoqueMinimo;
-    }
+    public double getPrecoCusto() { return precoCusto; }
+    public void setPrecoCusto(double precoCusto) { this.precoCusto = precoCusto; }
 
-    public boolean isAtivo() {
-        return ativo;
-    }
+    public int getEstoqueMinimo() { return estoqueMinimo; }
+    public void setEstoqueMinimo(int estoqueMinimo) { this.estoqueMinimo = estoqueMinimo; }
 
-    public void setAtivo(boolean ativo) {
-        this.ativo = ativo;
-    }
+    public boolean isAtivo() { return ativo; }
+    public void setAtivo(boolean ativo) { this.ativo = ativo; }
 
-    public Fornecedor getFornecedor() {
-        return fornecedor;
-    }
-
-    public void setFornecedor(Fornecedor fornecedor) {
-        this.fornecedor = fornecedor;
-    }
+    public Fornecedor getFornecedor() { return fornecedor; }
+    public void setFornecedor(Fornecedor fornecedor) { this.fornecedor = fornecedor; }
 }
