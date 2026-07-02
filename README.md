@@ -17,7 +17,7 @@ O **StorePDV** é um sistema de gerenciamento de loja com foco no Back-end. Dese
 
 ## 🛠️ Tecnologias e Ferramentas
 
-* **Linguagem:** Java (inserir versão, ex: 17)
+* **Linguagem:** Java 17
 * **Framework:** Spring Boot
 * **Banco de Dados:** MySQL
 * **Gerenciamento de Dependências:** Maven
