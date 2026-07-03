@@ -31,17 +31,4 @@ O projeto foi estruturado seguindo o padrão de **Arquitetura em Camadas**, visa
 * **Service:** Onde residem todas as regras de negócio da aplicação.
 * **Repository:** Responsável pela comunicação direta com o banco de dados e persistência dos dados.
 
-## 🚀 Como executar o projeto localmente
 
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-* [Java JDK](https://www.oracle.com/java/technologies/downloads/) (Versão utilizada no projeto)
-* [Git](https://git-scm.com)
-* [MySQL](https://dev.mysql.com/downloads/installer/)
-
-### 🎲 Rodando o Back-end
-
-1. **Clone este repositório**
-   ```bash
-   git clone [https://github.com/JoaoHenrique2109/StorePDV.git](https://github.com/JoaoHenrique2109/StorePDV.git)
